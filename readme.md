@@ -134,8 +134,6 @@ usario: gherrada22
 contraseña: 2001
 ```
 
-
-#### Nota
 - Aún sigue en mejoras :)
 
 &nbsp;
