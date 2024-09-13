@@ -128,7 +128,7 @@ pip install -r requirements.txt
 - Asegúrate de tener una conexión a internet para cargar los archivos de Bootstrap desde el CDN.
 - Puedes personalizar las plantillas y estilos según tus necesidades.
 
-# para el panel de administracion
+# para el panel de administracion e inicio de sesión
 ```bash
 usario: gherrada22
 contraseña: 2001
