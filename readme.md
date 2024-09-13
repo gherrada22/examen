@@ -130,7 +130,7 @@ pip install -r requirements.txt
 
 # para el panel de administracion e inicio de sesión
 ```bash
-usario: gherrada22
+usuario: gherrada22
 contraseña: 2001
 ```
 
