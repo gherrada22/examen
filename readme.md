@@ -1,6 +1,33 @@
 # Proyecto de Inventario en Django
 
 Este proyecto es una aplicación web de inventario desarrollada en Django. Permite listar productos, registrar nuevos productos y realizar ventas de pedidos. La interfaz de usuario es responsive gracias a Bootstrap.
+# Propuesta del examen
+CASO: Se necesita que se desarrolle una pagina web donde un usuario con password y contraseña pueda ingresar y registrar un producto para ello se necesitara que se tenga los siguientes formularios.
+
+   - Formulario de listado de productos, grupo y subgrupos. (Grupo->SubGRupo-> Producto), El contenido del producto debe ser (Nombre, id, precio de venta)
+   - Formulario de mantenimiento o modal de mantenimiento (Se deja libre de desarrollar)
+   - Formulario de venta de pedidos (Cabecerta solo id de orden, y detalle de venta -> Producto,cantidad y precio de venta)
+   - Un reporte donde muestre la información según cruzando, productos, grupos, subgrupos y ordenes generados (Opcional con filtros).
+
+
+## Capturas de pantalla
+
+![240913_07h03m20s_screenshot](https://github.com/user-attachments/assets/a0be84c3-73db-4eaf-aa98-376d3414f325)
+
+![240913_06h26m15s_screenshot](https://github.com/user-attachments/assets/4c78d457-fbcc-4514-9de7-c9033d350a96)
+
+![240913_06h27m45s_screenshot](https://github.com/user-attachments/assets/996a75fd-e4ac-488d-9d2b-491c8bbd3e71)
+
+![240913_06h27m58s_screenshot](https://github.com/user-attachments/assets/f2108194-0514-49d0-a045-9b50483e0ff6)
+
+![240913_06h28m07s_screenshot](https://github.com/user-attachments/assets/1f14a637-3284-4cda-afc2-3a113ec1b064)
+
+![240913_06h28m26s_screenshot](https://github.com/user-attachments/assets/b371d576-2536-47bf-b59e-35c07b7cd025)
+
+![240913_06h28m35s_screenshot](https://github.com/user-attachments/assets/a7c10b84-0848-4e24-ba82-8755f36c304a)
+
+![240913_06h28m44s_screenshot](https://github.com/user-attachments/assets/f81edf59-db8f-4cd0-b2d9-558f01441a67)
+
 
 ## Características
 
@@ -63,7 +90,7 @@ python manage.py runserver
 ## Uso
 
 ### Acceder a la aplicación
-
+- Inicio de sesión: `http://127.0.0.1:8000`
 - Lista de productos: `http://127.0.0.1:8000/inventory/productos/`
 - Registrar producto: `http://127.0.0.1:8000/inventory/productos/registrar/`
 - Venta de pedido: `http://127.0.0.1:8000/inventory/venta/`
@@ -102,15 +129,20 @@ pip install -r requirements.txt
 - Puedes personalizar las plantillas y estilos según tus necesidades.
 
 # para el panel de administracion
-usuario: gherrada22
-password: 2001
+```bash
+usario: gherrada22
+contraseña: 2001
+```
 
-# Accede a la página de inicio de sesión:
-URL: http://127.0.0.1:8000
-que lo va a redirigir a la pagina de login
-http://127.0.0.1:8000/accounts/login/
 
-# Inicia sesión con las credenciales del superusuario que creaste.
-Después de iniciar sesión, deberías ser redirigido a la lista de productos:
+#### Nota
+- Aún sigue en mejoras :)
 
-URL: http://127.0.0.1:8000/inventory/productos/
+&nbsp;
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/104341274/210186277-0d434bb0-80c0-43a9-b6b0-2e42e18c31a9.png" width="400" />
+</p>
+
+<p align="center">Copyright &copy; <a href="https://github.com/gherrada22" target="_blank">George Herrada Farfán</a>
+</p>
