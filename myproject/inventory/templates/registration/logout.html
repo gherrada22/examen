@@ -1,0 +1,10 @@
+{% extends 'inventory/base.html' %}
+{% block title %}Cerrar Sesión{% endblock %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h2>Has cerrado sesión</h2>
+        <a href="{% url 'login' %}" class="btn btn-primary">Iniciar Sesión</a>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'inventory/base.html' %}
+{% block title %}Lista de Productos{% endblock %}
+{% block content %}
+<h1>Lista de Productos</h1>
+<form method="get" class="form-inline mb-3">
+    <input type="text" name="q" class="form-control mr-2" placeholder="Buscar productos...">
+    <button type="submit" class="btn btn-outline-primary">Buscar</button>
+</form>
+<table class="table table-striped table-responsive">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Subgrupo</th>
+            <th>Precio de Venta</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for producto in productos %}
+            <tr>
+                <td>{{ producto.nombre }}</td>
+                <td>{{ producto.subgrupo.nombre }}</td>
+                <td>{{ producto.precio_venta }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<a href="{% url 'registrar_producto' %}" class="btn btn-primary">Registrar Producto</a>
+{% endblock %}
