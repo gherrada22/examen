@@ -31,7 +31,7 @@ CASO: Se necesita que se desarrolle una pagina web donde un usuario con password
 
 ## Características
 
-- Listado de productos con búsqueda avanzada.
+- Listado de productos con búsqueda avanzada(en proceso)
 - Registro de nuevos productos.
 - Venta de pedidos con detalles.
 - Interfaz de usuario responsive.
